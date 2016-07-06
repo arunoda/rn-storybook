@@ -1,0 +1,16 @@
+{
+  "name": "RnHello",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "storybook": "storybook start -p 9001"
+  },
+  "dependencies": {
+    "react": "15.2.0",
+    "react-native": "0.28.0"
+  },
+  "devDependencies": {
+    "@kadira/react-native-storybook": "^1.7.1"
+  }
+}
